@@ -1,0 +1,190 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    color: #2E2F42;
+}
+
+.logo-text {
+    color: #4D5AE5;
+}
+
+/* Header */
+.header-link {
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+.header {
+    color: tomato;
+}
+
+.header-list {
+    list-style: none;
+}
+
+.header-list-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #434455;
+
+}
+
+.address-list {
+    list-style: none;
+    color: #434455;
+}
+
+.address-list-item {
+    color: #434455;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* /Header */
+
+/* Buttons */
+
+.button-list {
+    list-style: none;
+}
+
+text .button:hover,
+.button:focus {
+    color: #404BBF;
+}
+
+/* /Buttons */
+
+/* Images */
+.images-list {
+    list-style: none;
+}
+
+.list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.list-subtitle {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* /images */
+
+/* Footer */
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #F4F4FD;
+}
+
+.footer-subtitle {
+    color: #E7E9FC;
+}
+
+/* /Footer */
+
+
+/* Studio */
+
+/* Hero */
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.hero-btn {
+    background-color: #4D5AE5;
+    color: #fff;
+}
+
+/* /Hero */
+
+/* About */
+.about-list {
+    list-style: none;
+}
+
+.about-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.about-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* /About */
+
+
+/* What are we doing */
+.doing-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.doing-list {
+    list-style: none;
+}
+
+/* /What are we doing */
+
+/* Our team */
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-title-main {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.team-list {
+    list-style: none;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.team-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+/* /Our team */
+
+
+/* /Studio */
