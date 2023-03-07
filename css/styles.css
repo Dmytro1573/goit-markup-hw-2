@@ -1,21 +1,37 @@
+:root {
+    --main-title-portfolio-color: #2E2F42;
+    --secondary-title-color: #434455;
+}
+
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
-    color: #2E2F42;
+    color: var(--main-title-portfolio-color);
 }
 
 .logo-text {
     color: #4D5AE5;
 }
 
-/* Header */
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/* --------------Header---------------- */
 .header-link {
     text-decoration: none;
-    color: #2E2F42;
+    color: var(--main-title-portfolio-color);
 }
 
 .header {
-    color: tomato;
+    background-color: #E5E5E5;
 }
 
 .header-list {
@@ -32,6 +48,16 @@ body {
 
 }
 
+.address {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 .address-list {
     list-style: none;
     color: #434455;
@@ -45,20 +71,27 @@ body {
 
 /* /Header */
 
-/* Buttons */
+/* ------------Buttons------------- */
 
 .button-list {
     list-style: none;
+    font-family: "Roboto", sans-serif;
 }
 
-text .button:hover,
+.button {
+    font-family: inherit;
+}
+
+.button:hover,
 .button:focus {
-    color: #404BBF;
+    cursor: pointer;
+    color: #fff;
+    background-color: #404BBF;
 }
 
 /* /Buttons */
 
-/* Images */
+/* ---------------Images--------------- */
 .images-list {
     list-style: none;
 }
@@ -71,7 +104,7 @@ text .button:hover,
 }
 
 .list-subtitle {
-    color: #434455;
+    color: var(--secondary-title-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -80,7 +113,7 @@ text .button:hover,
 
 /* /images */
 
-/* Footer */
+/* --------------Footer------------- */
 .footer {
     background-color: #2E2F42;
 }
@@ -97,9 +130,9 @@ text .button:hover,
 /* /Footer */
 
 
-/* Studio */
+/* -------------Studio------------- */
 
-/* Hero */
+/* ----------------Hero------------- */
 .hero {
     background-color: #2E2F42;
 }
@@ -120,7 +153,7 @@ text .button:hover,
 
 /* /Hero */
 
-/* About */
+/* --------------About--------------- */
 .about-list {
     list-style: none;
 }
@@ -137,13 +170,13 @@ text .button:hover,
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--secondary-title-color);
 }
 
 /* /About */
 
 
-/* What are we doing */
+/* --------------What are we doing-------------- */
 .doing-title {
     font-weight: 700;
     font-size: 36px;
@@ -156,7 +189,7 @@ text .button:hover,
 
 /* /What are we doing */
 
-/* Our team */
+/* ----------------Our team------------- */
 .team {
     background-color: #F4F4FD;
 }
@@ -181,7 +214,7 @@ text .button:hover,
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--secondary-title-color);
 }
 
 /* /Our team */
