@@ -10,7 +10,7 @@ body {
 }
 
 .logo-text {
-    color: #4d5ae5;
+    color: #4D5AE5;
 }
 
 .visuallyhidden {
@@ -30,9 +30,6 @@ body {
     color: var(--main-title-portfolio-color);
 }
 
-.header {
-    background-color: #E5E5E5;
-}
 
 .header-list {
     list-style: none;
