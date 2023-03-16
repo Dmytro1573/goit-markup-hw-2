@@ -6,7 +6,6 @@
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -52,6 +51,7 @@ body {
 }
 
 .header-list-item {
+    font-weight: 500;
     text-decoration: none;
     color: #434455;
 
@@ -74,6 +74,11 @@ body {
     color: #434455;
     text-decoration: none;
 }
+
+.address-list-item:hover {
+    color: #404BBF;
+}
+
 
 /* /Header */
 
@@ -108,10 +113,16 @@ body {
     list-style: none;
 }
 
+.list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-title-portfolio-color);
+}
 
 .list-subtitle {
     color: var(--secondary-title-color);
-    font-weight: 400;
 }
 
 /* /images */
@@ -123,7 +134,6 @@ body {
 
 
 .footer-subtitle {
-    font-weight: 400;
     color: #E7E9FC;
 }
 
@@ -147,7 +157,7 @@ body {
 }
 
 .hero-btn {
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -176,7 +186,6 @@ body {
 }
 
 .about-subtitle {
-    font-weight: 400;
     color: var(--secondary-title-color);
 }
 
@@ -188,6 +197,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-transform: capitalize;
 }
 
 .doing-list {
@@ -217,7 +227,6 @@ body {
 }
 
 .team-subtitle {
-    font-weight: 400;
     color: var(--secondary-title-color);
 }
 
