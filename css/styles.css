@@ -1,6 +1,38 @@
 :root {
     --main-title-portfolio-color: #2E2F42;
     --secondary-title-color: #434455;
+    --main-bottom: 120px;
+    --title-margin: 8px;
+    --margin-portfolio: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 body {
@@ -42,11 +74,30 @@ body {
 
 /* --------------Header---------------- */
 
+
 .logo-text {
     color: #4D5AE5;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-link {
+    padding-top: 26px;
+    margin-right: 76px;
+}
+
 .header-list {
+    display: flex;
+    gap: 40px;
+    padding-top: 26px;
     list-style: none;
 }
 
@@ -63,11 +114,16 @@ body {
 }
 
 .address {
+    display: flex;
     font-style: normal;
 }
 
 .address-list {
+    display: flex;
     list-style: none;
+    margin-left: 332px;
+    gap: 40px;
+    padding-top: 26px;
 }
 
 .address-list-item {
@@ -87,9 +143,15 @@ body {
 .button-list {
     list-style: none;
     font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 96px;
+    gap: var(--margin-portfolio)
 }
 
 .button {
+    padding: 12px 24px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -109,8 +171,21 @@ body {
 /* /Buttons */
 
 /* ---------------Images--------------- */
+.images-border {
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-bottom: 32px;
+    border: 1px solid #E7E9FC;
+}
+
+
 .images-list {
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
+    margin-top: 72px;
+    margin-bottom: 48px;
+    gap: var(--margin-portfolio)
 }
 
 .list-title {
@@ -119,10 +194,12 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-title-portfolio-color);
+
 }
 
 .list-subtitle {
     color: var(--secondary-title-color);
+    margin-top: var(--title-margin);
 }
 
 /* /images */
@@ -132,8 +209,15 @@ body {
     background-color: #2E2F42;
 }
 
+.container-footer {
+
+    width: 264px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 .footer-subtitle {
+    margin-top: 18px;
     color: #E7E9FC;
 }
 
@@ -144,19 +228,29 @@ body {
 
 /* ----------------Hero------------- */
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--main-title-portfolio-color);
+    margin-bottom: var(--main-bottom);
+
+}
+
+.hero-content {
+    text-align: center;
+    padding: 188px 318px 296px;
 }
 
 .hero-title {
+    width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-bottom: 48px;
+
 }
 
 .hero-btn {
+    padding: 16px 32px;
     font-family: inherit;
     font-style: normal;
     font-weight: 500;
@@ -175,7 +269,13 @@ body {
 /* /Hero */
 
 /* --------------About--------------- */
+.about {
+    margin-bottom: var(--main-bottom);
+}
+
 .about-list {
+    display: flex;
+    gap: 24px;
     list-style: none;
 }
 
@@ -183,24 +283,35 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    margin-bottom: var(--title-margin);
 }
 
 .about-subtitle {
+    width: 264px;
     color: var(--secondary-title-color);
 }
+
 
 /* /About */
 
 
 /* --------------What are we doing-------------- */
+.doing {
+    margin-bottom: var(--main-bottom);
+}
+
 .doing-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 72px;
 }
 
 .doing-list {
+    display: flex;
+    gap: 24px;
     list-style: none;
 }
 
@@ -209,24 +320,38 @@ body {
 /* ----------------Our team------------- */
 .team {
     background-color: #F4F4FD;
+    /* margin-bottom: var(--main-bottom); */
+}
+
+.container-team {
+    padding-bottom: 120px;
 }
 
 .team-title-main {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
+    margin-bottom: 72px;
 }
 
 .team-list {
+    display: flex;
+    gap: 24px;
     list-style: none;
 }
 
 .team-title {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    text-align: center;
     font-size: 20px;
     line-height: 1.2;
+    margin-bottom: var(--title-margin);
 }
 
 .team-subtitle {
+    text-align: center;
     color: var(--secondary-title-color);
 }
 
