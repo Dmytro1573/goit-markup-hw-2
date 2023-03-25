@@ -26,8 +26,6 @@ p {
 
 img {
     display: block;
-    max-width: 100%;
-    height: auto;
 }
 
 .container {
@@ -60,7 +58,6 @@ body {
 }
 
 .logo-link-footer {
-    margin-bottom: 18px;
     color: #F4F4FD;
 }
 
@@ -83,10 +80,6 @@ body {
 }
 
 .header {
-    border-bottom: 1px solid #E7E9FC;
-}
-
-.header-content {
     display: flex;
     align-items: center;
 }
@@ -97,12 +90,14 @@ body {
 }
 
 .header-link {
+    padding-top: 26px;
     margin-right: 76px;
 }
 
 .header-list {
     display: flex;
     gap: 40px;
+    padding-top: 26px;
     list-style: none;
 }
 
@@ -119,14 +114,16 @@ body {
 }
 
 .address {
-    margin-left: auto;
+    display: flex;
     font-style: normal;
 }
 
 .address-list {
     display: flex;
     list-style: none;
+    margin-left: 332px;
     gap: 40px;
+    padding-top: 26px;
 }
 
 .address-list-item {
@@ -145,20 +142,16 @@ body {
 
 .button-list {
     list-style: none;
+    font-family: "Roboto", sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 96px;
-    margin-bottom: 72px;
     gap: var(--margin-portfolio)
 }
 
 .button {
     padding: 12px 24px;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-    background: #F4F4FD;
-    cursor: pointer;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -170,8 +163,8 @@ body {
 
 .button:hover,
 .button:focus {
+    cursor: pointer;
     color: #fff;
-    border-color: #404BBF;
     background-color: #404BBF;
 }
 
@@ -179,10 +172,10 @@ body {
 
 /* ---------------Images--------------- */
 .images-border {
-    padding-top: 32px 16px;
+    padding-top: 32px;
+    padding-left: 16px;
     padding-bottom: 32px;
     border: 1px solid #E7E9FC;
-    border-top: none;
 }
 
 
@@ -190,6 +183,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    margin-top: 72px;
+    margin-bottom: 48px;
     gap: var(--margin-portfolio)
 }
 
@@ -198,30 +193,31 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-left: 16px;
-    margin-bottom: var(--title-margin);
     color: var(--main-title-portfolio-color);
 
 }
 
 .list-subtitle {
-    padding-left: 16px;
     color: var(--secondary-title-color);
+    margin-top: var(--title-margin);
 }
 
 /* /images */
 
 /* --------------Footer------------- */
 .footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
     background-color: #2E2F42;
 }
 
+.container-footer {
+
+    width: 264px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 .footer-subtitle {
-    width: 264px;
+    margin-top: 18px;
     color: #E7E9FC;
 }
 
@@ -232,10 +228,8 @@ body {
 
 /* ----------------Hero------------- */
 .hero {
-    padding-top: 188px;
-    padding-bottom: 292px;
-    text-align: center;
     background-color: var(--main-title-portfolio-color);
+    margin-bottom: var(--main-bottom);
 
 }
 
@@ -251,7 +245,7 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
-    margin: 0 auto 48px;
+    margin-bottom: 48px;
 
 }
 
@@ -276,18 +270,13 @@ body {
 
 /* --------------About--------------- */
 .about {
-    padding-top: var(--main-bottom);
-    padding-bottom: var(--main-bottom);
+    margin-bottom: var(--main-bottom);
 }
 
 .about-list {
     display: flex;
     gap: 24px;
     list-style: none;
-}
-
-.about-item {
-    width: 264px;
 }
 
 .about-title {
@@ -298,6 +287,7 @@ body {
 }
 
 .about-subtitle {
+    width: 264px;
     color: var(--secondary-title-color);
 }
 
@@ -307,7 +297,7 @@ body {
 
 /* --------------What are we doing-------------- */
 .doing {
-    padding-bottom: var(--main-bottom);
+    margin-bottom: var(--main-bottom);
 }
 
 .doing-title {
@@ -333,7 +323,9 @@ body {
     /* margin-bottom: var(--main-bottom); */
 }
 
-
+.container-team {
+    padding-bottom: 120px;
+}
 
 .team-title-main {
     font-weight: 700;
@@ -349,22 +341,16 @@ body {
     list-style: none;
 }
 
-.list-item {
-    background-color: #fff;
-}
-
 .team-title {
-    padding-top: 32px;
+    margin-top: 32px;
     margin-bottom: 8px;
     text-align: center;
-    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     margin-bottom: var(--title-margin);
 }
 
 .team-subtitle {
-    padding-bottom: 152px;
     text-align: center;
     color: var(--secondary-title-color);
 }
